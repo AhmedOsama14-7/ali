@@ -108,9 +108,34 @@ a{
     
     main{
         height:100%;
+        color:bisque;
+
+        
+       
+    }
+    h1{
+        
+            color:black;
+
+        
+    }
+    h2{
+        color:black;
     }
 }
-@media (max-width:300px) {
+@media (max-width:375px) {
+    *{
+        font-size:11px;
+    }
+    body{
+        height:100vh;
+    }
+    
+    main{
+        height:100%;
+    }
+}
+@media (max-width:290px) {
     *{
         font-size:9px;
     }
