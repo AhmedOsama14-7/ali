@@ -50,7 +50,7 @@ p{
     font-size: 1.2rem;
 }
 button{
-    background: none;
+    background: white;
     border-radius: 1rem;
     display: flex;
     padding-inline: 1rem;
@@ -101,6 +101,18 @@ a{
 @media (max-width:425px) {
     *{
         font-size:13px;
+    }
+    body{
+        height:100vh;
+    }
+    
+    main{
+        height:100%;
+    }
+}
+@media (max-width:300px) {
+    *{
+        font-size:9px;
     }
     body{
         height:100vh;
