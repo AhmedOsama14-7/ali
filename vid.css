@@ -8,17 +8,20 @@
 body{
     display: flex;
     justify-content: center;
-    background-color: rgb(35, 149, 194)
+    background-color: rgb(35, 149, 194);
+    align-items: center;
     
 }
 
 main{
    
         width: 90vw;
-        height:90vh;
+         height: fit-content;
         border-radius: 1rem;
         margin-inline: 2rem;
         margin-block:2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
         display: flex;
         border: 1px solid black;
         background:white;
