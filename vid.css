@@ -37,6 +37,7 @@ section{
     gap: 2rem;
     text-align: center;
     align-items: center;
+    justify-content: center;
 }
 section video{
     width:80%;

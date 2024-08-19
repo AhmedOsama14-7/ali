@@ -98,6 +98,12 @@ a{
     }
    
 }
+@media (max-width:560px) {
+    *{
+        font-size:13px;
+    }
+   
+}
 @media (max-width:425px) {
     *{
         font-size:13px;
@@ -108,7 +114,7 @@ a{
     
     main{
         height:100%;
-        color:bisque;
+        
 
         
        
